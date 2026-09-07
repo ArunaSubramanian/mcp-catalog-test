@@ -314,7 +314,7 @@ remoteConfig:
   headers:
     - name: Atlassian PAT
       key: Authorization
-      required: false
+      required: true
       sensitive: true
       prefix: "Bearer "
       description: API token for PAT auth; leave empty when using OAuth
